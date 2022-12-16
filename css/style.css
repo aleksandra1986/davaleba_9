@@ -1,22 +1,26 @@
 /* header */
 
 .box {
-    font-family: "ArchyEDT-Bold", sans-serif;
+ 
 
     width: 1920px;
-   
+
     margin: 0 auto;
-    border: 3px solid black;
+    font-family: "ArchyEDT-Bold", sans-serif;
+
+    
+
 }
 
 header {
-    border: 2px solid red;
+
     width: 85%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 52px 0 60px 0;
+    color: #707070;
 }
 
 .header {
@@ -26,7 +30,7 @@ header {
 
 
 
-    border: 3px solid goldenrod;
+
 }
 
 
@@ -34,9 +38,16 @@ ul {
 
     display: flex;
     justify-content: space-around;
-    border: 2px solid green;
+    color: #707070;
     font-size: 20px;
+    font-weight: bold;
+   
 
+}
+li{
+ color: #707070;
+ font-size: 20px;
+ font-weight: 300;
 }
 
 nav {
@@ -49,7 +60,7 @@ section {
     height: 613px;
     margin: 0 auto;
     margin-bottom: 123px;
-    border: 3px solid gray;
+
     background-image: url("../image/bigfoto.svg");
     background-position: center;
     background-repeat: no-repeat;
@@ -62,26 +73,27 @@ section {
 .section12 {
     width: 85%;
     margin: 0 auto;
-    border: 2px solid brown;
+
 
 }
 
 .section1 {
     width: 100%;
     height: 686px;
-    border: 2px solid blue;
+
     margin-bottom: 149px;
 }
 
 .section2 {
     width: 100%;
     height: 686px;
-    border: 2px solid purple
+
 }
 
 h2 {
     font-size: 40px;
     margin-bottom: 70px;
+    color: #707070;
 }
 
 .foto6 {
@@ -93,50 +105,61 @@ h2 {
 }
 
 .foto {
-    border: 2px solid yellow;
+
     width: 30%;
     height: 100%;
     background-position: top;
     background-repeat: no-repeat;
-    background-color: aqua;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    box-shadow: 3px 3px 6px #707070,-3px 0 6px #8f8e8e;
 }
+
 
 h4 {
     font-size: 30px;
     margin-top: 302px;
     margin-left: 5%;
+    color: #707070;
+    
 }
 
 .more {
     font-size: 24px;
+    font-weight: bold;
     margin-bottom: 35px;
     margin-left: 83%;
+    color: #707070;
 }
 
 
 .one {
     background-image: url("../image/foto1.svg");
 }
-.two{
+
+.two {
     background-image: url("../image/foto2.svg");
 }
-.three{
+
+.three {
     background-image: url("../image/foto3.svg");
 }
-.four{
+
+.four {
     background-image: url("../image/foto4.svg");
 }
-.five{
+
+.five {
     background-image: url("../image/foto5.svg");
 }
-.six{
+
+.six {
     background-image: url("../image/foto6.svg");
 }
+
 /* footer */
-footer{ border: 2px solid brown;
+footer {
     width: 1920px;
     height: 207px;
     margin: 0 auto;
@@ -144,21 +167,24 @@ footer{ border: 2px solid brown;
     color: #F8F8F8;
     margin-top: 75px;
     margin-bottom: 10px;
-    
-}
-.footer{
-    border:2px solid #F8F8F8;
-    width: 85%;
-    padding: 49px 0 63px 0;
-    margin: 0  auto;
-  display: flex;
-  justify-content: space-between;
 
 }
-.size{
+
+.footer {
+
+    width: 85%;
+    padding: 49px 0 63px 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.size {
     text-align: center;
     padding-bottom: 7px;
 }
-.fb{
-    padding-right:34.1px ;
+
+.fb {
+    padding-right: 34.1px;
 }

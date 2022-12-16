@@ -1,0 +1,63 @@
+/* header */
+
+.box {
+    font-family: "ArchyEDT-Bold", sans-serif;
+
+    width: 1920px;
+    /* height: 2753; */
+    margin: 0 auto;
+    border: 3px solid black;
+}
+
+header {
+    border: 2px solid red;
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 52px 0 60px 0;
+}
+.header{
+display: flex;  
+gap: 262px;
+  border: 3px solid red;
+}
+ul{
+    border: 2px solid green;
+    display: flex;
+    gap: 53px;
+    font-size: 20px;
+}
+/* section didi foto  */
+section{
+    width: 85%;
+    height: 613px;
+    margin: 0 auto;
+    margin-bottom: 123px;
+    border: 3px solid gray;
+    background-image: url("../image/bigfoto.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+/*  section patara fotoebi
+*/
+.section12{
+    width: 85%;
+    margin: 0 auto;
+    border: 2px solid brown;
+    
+}
+.section1{
+    width: 100%;
+    height: 686px;
+    border: 2px solid blue;
+    margin-bottom: 149px;
+}
+.section2{
+    width: 100%;
+    height: 686px;
+    border:2px solid purple
+}

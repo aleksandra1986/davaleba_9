@@ -4,7 +4,7 @@
     font-family: "ArchyEDT-Bold", sans-serif;
 
     width: 1920px;
-    /* height: 2753; */
+   
     margin: 0 auto;
     border: 3px solid black;
 }
@@ -14,23 +14,37 @@ header {
     width: 85%;
     margin: 0 auto;
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
     padding: 52px 0 60px 0;
 }
-.header{
-display: flex;  
-gap: 262px;
-  border: 3px solid red;
-}
-ul{
-    border: 2px solid green;
+
+.header {
     display: flex;
-    gap: 53px;
-    font-size: 20px;
+    justify-content: space-between;
+    width: 50%;
+
+
+
+    border: 3px solid goldenrod;
 }
+
+
+ul {
+
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid green;
+    font-size: 20px;
+
+}
+
+nav {
+    width: 70%;
+}
+
 /* section didi foto  */
-section{
+section {
     width: 85%;
     height: 613px;
     margin: 0 auto;
@@ -42,22 +56,82 @@ section{
     background-size: cover;
 
 }
+
 /*  section patara fotoebi
 */
-.section12{
+.section12 {
     width: 85%;
     margin: 0 auto;
     border: 2px solid brown;
-    
+
 }
-.section1{
+
+.section1 {
     width: 100%;
     height: 686px;
     border: 2px solid blue;
     margin-bottom: 149px;
 }
-.section2{
+
+.section2 {
     width: 100%;
     height: 686px;
-    border:2px solid purple
+    border: 2px solid purple
+}
+
+h2 {
+    font-size: 40px;
+    margin-bottom: 70px;
+}
+
+.foto6 {
+    width: 100%;
+    height: 563px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.foto {
+    border: 2px solid yellow;
+    width: 30%;
+    height: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h4 {
+    font-size: 30px;
+    margin-top: 302px;
+    margin-left: 5%;
+}
+
+.more {
+    font-size: 24px;
+    margin-bottom: 35px;
+    margin-left: 83%;
+}
+
+
+.one {
+    background-image: url("../image/foto1.svg");
+}
+.two{
+    background-image: url("../image/foto2.svg");
+}
+.three{
+    background-image: url("../image/foto3.svg");
+}
+.four{
+    background-image: url("../image/foto4.svg");
+}
+.five{
+    background-image: url("../image/foto5.svg");
+}
+.six{
+    background-image: url("../image/foto6.svg");
 }

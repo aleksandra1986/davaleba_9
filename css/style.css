@@ -1,14 +1,14 @@
 /* header */
 
 .box {
- 
+
 
     width: 1920px;
 
     margin: 0 auto;
-    font-family: "ArchyEDT-Bold", sans-serif;
+   
 
-    
+
 
 }
 
@@ -21,6 +21,7 @@ header {
     align-items: center;
     padding: 52px 0 60px 0;
     color: #707070;
+    font-family: "ArchyEDT-Bold", sans-serif;
 }
 
 .header {
@@ -41,13 +42,14 @@ ul {
     color: #707070;
     font-size: 20px;
     font-weight: bold;
-   
+
 
 }
-li{
- color: #707070;
- font-size: 20px;
- font-weight: 300;
+
+li {
+    color: #707070;
+    font-size: 20px;
+    font-weight: 300;
 }
 
 nav {
@@ -65,22 +67,26 @@ section {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: "ArchyEDT-Bold", sans-serif;
+
 
 }
 
 /*  section patara fotoebi
 */
-.section12 {
+.section12 { 
+  
     width: 85%;
     margin: 0 auto;
+    font-family: "ArchyEDT-Bold", sans-serif;
+
 
 
 }
 
-.section1 {
+.section1 { 
     width: 100%;
     height: 686px;
-
     margin-bottom: 149px;
 }
 
@@ -92,71 +98,92 @@ section {
 
 h2 {
     font-size: 40px;
-    margin-bottom: 70px;
     color: #707070;
+    margin-bottom: 70px;
 }
 
 .foto6 {
+   
     width: 100%;
     height: 563px;
     display: flex;
     justify-content: space-between;
+  
 
 }
+.foto1{
+    
+    width: 31%;
+    height: 563px;
+    box-shadow: 5px 5px 8px #707070,-5px 0 8px #707070;
 
-.foto {
-
-    width: 30%;
-    height: 100%;
-    background-position: top;
-    background-repeat: no-repeat;
+}
+.text{
+    width: 95%;
+    height: 235px;
+    margin: 20px auto ;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    box-shadow: 3px 3px 6px #707070,-3px 0 6px #8f8e8e;
-}
-
-
-h4 {
-    font-size: 30px;
-    margin-top: 302px;
-    margin-left: 5%;
-    color: #707070;
+ justify-content: space-between;
+    
     
 }
-
-.more {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 35px;
-    margin-left: 83%;
+h4{
+    font-size: 30px;
     color: #707070;
 }
 
-
-.one {
+.more{
+   text-align: right;
+   font-size: 24px;
+   color: #707070;
+   
+}
+.one{
+    width: 100%;
+    height: 50%;
+    margin: 0 auto;
     background-image: url("../image/foto1.svg");
 }
-
-.two {
+.two{
+    width: 100%;
+    height: 50%;
+    margin: 0 auto;
     background-image: url("../image/foto2.svg");
-}
 
-.three {
+}
+.three{
+    width: 100%;
+    height: 50%;
+    margin: 0 auto;
     background-image: url("../image/foto3.svg");
-}
 
-.four {
+}
+.four{
+    width: 100%;
+    height: 50%;
+    margin: 0 auto;
     background-image: url("../image/foto4.svg");
-}
 
-.five {
+}
+.five{
+    width: 100%;
+    height: 50%;
+    margin: 0 auto;
     background-image: url("../image/foto5.svg");
+
+}
+.six{
+    width: 100%;
+    height: 50%;
+    margin: 0 auto;
+    background-image: url("../image/foto5.svg");
+
 }
 
-.six {
-    background-image: url("../image/foto6.svg");
-}
+
+
+
 
 /* footer */
 footer {
@@ -187,4 +214,132 @@ footer {
 
 .fb {
     padding-right: 34.1px;
+}
+
+@media screen and (max-width: 480px) {
+    .box {
+        
+        width: 320px;
+        height: 2097px;
+    }
+
+    header {
+        width: 100%;
+        gap: 160px;
+    }
+
+
+    nav {
+        display: none;
+    }
+
+    section {
+        width: 100%;
+        height: 253px;
+        margin-bottom: 91.5px;
+        background-image: url("../image/smallfoto.svg");
+        background-position: center;
+        background-size: cover;
+    }
+
+    .section12 {
+     
+        width: 80%;
+        height: 1454px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom:0;
+       
+        
+        
+    }
+    .section1, .section2 {
+        width: 100%;
+         display: flex;
+         flex-direction: column;
+
+    
+     
+ 
+    }
+    .foto6{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 32.4px;
+        /* box-shadow: 2px 2px 4px #707070, -2px 0 4px  #707070; */
+        
+    }
+    .foto1{
+       
+        width: 100%;
+        height: 286.65px;
+        margin-bottom: 32.4px;
+        
+
+    }
+    .foto{
+        width: 100%;
+        height: 50%
+
+
+    }
+    .text{
+        width: 85%;
+        height: 79px;
+    }
+
+    h2 {
+        font-size: 15px;
+        text-align: center;
+        margin-bottom: 31.9px;
+    }
+    h4{
+       font-size: 15px;
+      }
+    .more{
+        font-size: 11px;
+    }
+
+  .del{
+    display: none;
+ }
+   
+
+footer{
+    width: 100%;
+    height: 240.71px;
+    
+}
+.footer{
+    width: 80%;
+    margin: 0 auto ;
+    margin-bottom: 21px;
+     justify-content: center;
+      flex-wrap:wrap ;
+      padding-top: 21px;
+      padding-bottom: 21px;
+     
+    gap: 33px;
+   
+    
+}
+
+.adress{
+    order: -1;
+}
+
+
+.logot{
+    display:none;
+}
+.size{
+    font-size: 19px;
+    text-align: center;
+}
+p{
+    font-size: 13px;
+}
+
+
 }
